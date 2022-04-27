@@ -1,0 +1,121 @@
+body {
+  width: 100%;
+}
+
+nav {
+  width: 1480px;
+  border: 1px solid black;
+  height: 147px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+nav .nav-logo-container {
+  margin-top: 48px;
+  margin-left: 230px;
+  width: 7.29%;
+  height: 42.45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+nav .nav-logo-container .nav-logo-img {
+  background-image: url("../../img/Logo.png");
+  width: 28%;
+  height: 42.45px;
+}
+nav .nav-logo-container .nav-logo-text {
+  background-image: url("../../img/FASHION.png");
+  margin-top: 11px;
+  margin-left: 5px;
+  width: 69%;
+  height: 19px;
+  background-size: 100% 100%;
+}
+nav .nav-bar-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 26px;
+  margin-left: 282px;
+  width: 29%;
+  height: 61px;
+}
+nav .nav-bar-container .nav-home {
+  width: 11.95%;
+  height: 27px;
+  margin-top: 29px;
+  border-bottom: 2px solid #DA5D1A;
+}
+nav .nav-bar-container .nav-home .nav-a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 700;
+}
+nav .nav-bar-container .nav-fashion {
+  width: 29.6%;
+  height: 27px;
+  margin-top: 29px;
+  margin-left: 44px;
+}
+nav .nav-bar-container .nav-fashion .nav-a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 400;
+}
+nav .nav-bar-container .nav-winter {
+  width: 12.68%;
+  margin-top: 2px;
+  margin-left: 44px;
+}
+nav .nav-bar-container .nav-winter .nav-new {
+  width: 82%;
+  height: 27px;
+  margin: 0px auto;
+  background-image: url("../../img/new.png");
+  background-size: 100% 100%;
+}
+nav .nav-bar-container .nav-winter .a-winter .nav-a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 400;
+}
+nav .nav-bar-container .nav-product {
+  width: 15.36%;
+  height: 27px;
+  margin-top: 29px;
+  margin-left: 37px;
+}
+nav .nav-bar-container .nav-product .nav-a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 400;
+}
+nav .nav-logIn-container {
+  margin-top: 40px;
+  margin-left: 197px;
+  width: 7.43%;
+  height: 57px;
+  border-radius: 5px;
+  border: 1px solid #DA5D1A;
+  padding: 15px 30px 15px 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+nav .nav-logIn-container .button-LogIn {
+  text-align: center;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  color: #DA5D1A;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=header.css.map */
