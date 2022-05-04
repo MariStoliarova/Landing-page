@@ -1,0 +1,152 @@
+@mixin img-nav {
+    width: 20.9%;
+    height: 39.3px;
+    background-image: url("../../img/coation.png");
+    background-position: 100% 100%;
+    border: 1px solid blue;
+    margin: 50px 25.5px 192.1px 182px;
+}
+
+@mixin img-main {
+    width: 69.46%;
+    border: 1px solid blue;
+    background-position: 100% 100%;
+}
+
+@mixin text-nav {
+    width: 89.72%;
+    height: 72px;
+    border: 1px solid blue;
+    margin: 58px 30px 0px 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6B6867;
+}
+
+@mixin text-main {
+    margin: 15px 158px 0px 0px;
+    width: 47.89%;
+    height: 33px;
+    border: 1px solid blue;
+    color: #010405;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+@mixin text-aside {
+    margin: 2px 229px 0px 0px;
+    width: 31.57%;
+    height: 24px;
+    border: 1px solid blue;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6B6867;
+}
+
+@mixin img-footer {
+    margin: 14px 184px 50px 0px;
+    width: 36.9%;
+    height: 17px;
+    border: 1px solid blue;
+    background-image: url("../../img/star.png");
+    background-size: 100% 100%;
+}
+
+aside {
+    width: 1600px;
+    border: 1px solid black;
+    height: 482px;
+    margin: 130px auto 0px;
+    .annotation-container {
+        width: 100%;
+        height: 482px;
+        background-image: url("../../img/Rectangle\ 260.png");
+        display: flex;
+        .annotation-designer {
+            width: 34.68%;
+            height: 282px;
+            border: 1px solid red;
+            margin: 100px 30px 100px 230px;
+            background-color: #FFFFFF;
+            border-radius: 5px;
+            display: flex;
+            .designer-img {
+                width: 47.39%;
+                height: 282px;
+                border: 1px solid blueviolet;
+                .designer-img-nav {
+                    @include img-nav;
+                }
+                .designer-img-main {
+                    height: 251px;
+                    background-image: url("../../img/image.png");
+                    margin: -254px 51px 0px 30px;
+                    @include img-main;
+                }
+            }
+            .designer-text {
+                width: 52.61%;
+                height: 282px;
+                border: 1px solid blueviolet;
+                .designer-text-nav {
+                    @include text-nav;
+                }
+                .designer-text-main {
+                    @include text-main;
+                }
+                .designer-text-aside {
+                    @include text-aside;
+                }
+                .designer-img-footer {
+                    @include img-footer;
+                }
+            }
+        }
+        .annotation-artDirector {
+            width: 34.68%;
+            height: 282px;
+            border: 1px solid red;
+            margin: 100px 230px 100px 0px;
+            background-color: #FFFFFF;
+            border-radius: 5px;
+            display: flex;
+            .artDirector-img {
+                width: 47.39%;
+                height: 282px;
+                border: 1px solid blueviolet;
+                .artDirector-img-nav {
+                    @include img-nav;
+                }
+                .artDirector-img-main {
+                    height: 245px;
+                    background-image: url("../../img/image\ \(1\).png");
+                    margin: -248px 51px 0px 30px;
+                    @include img-main;
+                }
+            }
+            .artDirector-text {
+                width: 52.61%;
+                height: 282px;
+                border: 1px solid blueviolet;
+                .artDirector-text-nav {
+                    @include text-nav;
+                }
+                .artDirector-text-main {
+                    @include text-main;
+                }
+                .artDirector-text-aside {
+                    @include text-aside;
+                }
+                .artDirector-img-footer {
+                    @include img-footer;
+                }
+            }
+        }
+    }
+}

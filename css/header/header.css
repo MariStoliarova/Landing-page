@@ -1,5 +1,6 @@
 body {
-  width: 100%;
+  width: 1600px;
+  border: 1px solid green;
 }
 
 nav {
@@ -9,6 +10,7 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 0px auto;
 }
 nav .nav-logo-container {
   margin-top: 48px;

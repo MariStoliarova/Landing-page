@@ -1,7 +1,8 @@
 main {
   width: 1480px;
-  border: 1px solid black;
-  height: 3503px;
+  border: 1px solid red;
+  height: 2182px;
+  margin: 0px auto;
 }
 main .home-container {
   width: 100%;
