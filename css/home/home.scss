@@ -20,7 +20,6 @@ $font-f: "Roboto",
 sans-serif;
 main {
     width: 1480px;
-    border: 1px solid red;
     height: 2182px;
     margin: 0px auto;
     .home-container {
@@ -33,12 +32,10 @@ main {
             margin-left: 170px;
             width: 33%;
             height: 471.86px;
-            border: 1px solid red;
             .home-text-header {
                 height: 34px;
                 width: 38.2%;
                 margin-bottom: 4.61px;
-                border: 1px solid blue;
                 font-family: $font-f;
                 font-size: 22px;
                 background: linear-gradient(270deg, #DA5D1A 0%, #FF7D38 97.97%);
@@ -50,7 +47,6 @@ main {
                 height: 222px;
                 width: 100%;
                 margin-bottom: 25.37px;
-                border: 1px solid blue;
                 color: #010405;
                 font-family: "Spline Sans", sans-serif;
                 font-size: 59px;
@@ -61,7 +57,6 @@ main {
                 height: 82.19px;
                 width: 82%;
                 margin-bottom: 38.66px;
-                border: 1px solid blue;
                 color: #6B6867;
                 font-size: $font-s;
                 font-family: $font-f;
@@ -71,7 +66,6 @@ main {
             .home-buttom-getStarted {
                 height: 57.83px;
                 width: 30.7%;
-                border: 1px solid blue;
                 border-radius: 5px;
                 background: url("../../img/CTA.png");
             }
@@ -79,7 +73,6 @@ main {
         .block-container-img {
             width: 50.56%;
             height: 575px;
-            border: 1px solid red;
             margin: auto 55px;
             .img-women {
                 background: url("../../img/graceful-european-woman.png");
@@ -88,21 +81,18 @@ main {
                 z-index: 1;
                 width: 73.9%;
                 height: 533.26px;
-                border: 1px solid blue;
             }
             .img-sale {
                 background: url("../../img/20%\ off.png");
                 position: relative;
-                bottom: 535px;
+                bottom: 538px;
                 z-index: 2;
-                border: 1px solid blue;
                 width: 20.54%;
                 height: 173.5px;
             }
             .img-background {
                 background: url("../../img/Rectangle\ 263.png");
                 position: relative;
-                // left: 100px;
                 bottom: 710px;
                 left: 5px;
                 width: 73.21%;
@@ -145,12 +135,9 @@ main {
         width: 77.02%;
         height: 610px;
         margin: 130px auto 0px;
-        border: 1px solid black;
         .conditions-container-text {
             height: 136px;
-            border: 1px solid blue;
             .conditions-text-header {
-                border: 1px solid red;
                 width: 36.9%;
                 height: 57px;
                 font-family: "Spline Sans", sans-serif;
@@ -160,7 +147,6 @@ main {
                 margin: 0px auto;
             }
             .conditions-text-main {
-                border: 1px solid red;
                 width: 49.5%;
                 height: 52px;
                 font-family: $font-f;
@@ -174,18 +160,15 @@ main {
         }
         .conditions-container-blockImg {
             height: 307px;
-            border: 1px solid blue;
             margin-top: 60px;
             display: flex;
             justify-content: space-between;
             .conditions-block-FreeShipping {
                 height: 307px;
                 width: 31.57%;
-                border: 1px solid red;
                 .block-FreeShipping-img {
                     width: 24.7%;
                     height: 59.17px;
-                    border: 1px solid blue;
                     margin: 40.42px auto 23.42px;
                     background: url("../../img/Vector.png");
                     background-size: 100% 100%;
@@ -193,53 +176,45 @@ main {
                 .block-FreeShipping-textOne {
                     width: 54%;
                     height: 43px;
-                    border: 1px solid blue;
                     margin: 0px auto 20px;
                     @include blockTextOne;
                 }
                 .block-FreeShipping-textTwo {
                     width: 83.3%;
                     height: 81px;
-                    border: 1px solid blue;
                     margin: 0px auto 40px;
                     @include blockTextTwo;
                 }
             }
             .conditions-block-Payment {
                 height: 307px;
-                border: 1px solid red;
                 width: 31.57%;
                 .block-Payment-img {
                     width: 23.3%;
                     height: 59.43px;
                     margin: 40.83px auto 22.83px;
-                    border: 1px solid blue;
                     background: url("../../img/Group.png");
                     background-size: 100% 100%;
                 }
                 .block-Payment-textOne {
                     width: 68.5%;
                     height: 43px;
-                    border: 1px solid blue;
                     margin: 0px auto 20px;
                     @include blockTextOne;
                 }
                 .block-Payment-textTwo {
                     width: 83.3%;
                     height: 81px;
-                    border: 1px solid blue;
                     margin: auto;
                     @include blockTextTwo;
                 }
             }
             .conditions-block-Support {
                 height: 307px;
-                border: 1px solid red;
                 width: 31.57%;
                 .block-Support-img {
                     width: 15.5%;
                     height: 59.93px;
-                    border: 1px solid blue;
                     margin: 40px auto 23.7px;
                     background: url("../../img/7.png");
                     background-size: 100% 100%;
@@ -247,7 +222,6 @@ main {
                 .block-Support-textOne {
                     width: 50.39%;
                     height: 43px;
-                    border: 1px solid blue;
                     margin: 0px auto 20px;
                     @include blockTextOne
                 }
@@ -255,20 +229,18 @@ main {
                     width: 83.3%;
                     height: 81px;
                     margin: 0px auto;
-                    border: 1px solid blue;
                     @include blockTextTwo
                 }
             }
         }
         .container-ButtonSeeMore {
-            border: 1px solid red;
             width: 11.92%;
             height: 57px;
             margin: 46px 500px;
             border-radius: 5px;
             background-color: #DA5D1A;
+            border: 1px solid #DA5D1A;
             .buttonSeeMore {
-                border: 1px solid blue;
                 width: 70%;
                 height: 27px;
                 color: #FFFFFF;
@@ -284,26 +256,22 @@ main {
     .discount-container {
         width: 77.02%;
         height: 602px;
-        border: 1px solid black;
         margin: 130px auto 0px;
         display: flex;
         .discount-block-40 {
             width: 48.64%;
             height: 600px;
-            border: 1px solid blue;
             background-image: url("../../img/Rectangle\ 218.png");
             .block-img-justYou {
                 position: relative;
                 margin: 30px 382px 477.51px 30px;
                 width: 25.76%;
                 height: 92.49px;
-                border: 1px solid red;
                 background-image: url("../../img/just\ for\ you.png");
                 background-size: 100% 100%;
             }
             .block-img-lady {
                 position: relative;
-                border: 1px solid red;
                 width: 72%;
                 height: 553px;
                 top: -557px;
@@ -313,7 +281,6 @@ main {
             }
             .block-img-discount {
                 position: relative;
-                border: 1px solid red;
                 width: 40%;
                 height: 220px;
                 top: -810px;
@@ -323,7 +290,6 @@ main {
                 .img-textOne {
                     width: 21.36%;
                     height: 27px;
-                    border: 1px solid blue;
                     margin: 30px auto 0px;
                     color: #FFFFFF;
                     font-family: $font-f;
@@ -336,7 +302,6 @@ main {
                     width: 50.54%;
                     height: 73px;
                     margin: 17px auto 0px;
-                    border: 1px solid blue;
                     color: #FFFFFF;
                     font-family: "Spline Sans", sans-serif;
                     font-weight: 700;
@@ -348,7 +313,6 @@ main {
                     width: 45.5%;
                     height: 33px;
                     margin: 10px auto 0px;
-                    border: 1px solid blue;
                     color: #FFFFFF;
                     font-family: $font-f;
                     font-weight: 400;
@@ -361,18 +325,15 @@ main {
         .discount-block-25 {
             width: 48.64%;
             height: 600px;
-            border: 1px solid blue;
             margin-left: 30px;
             .block-imgNav {
                 width: 100%;
                 height: 285px;
-                border: 1px solid red;
                 background-image: url("../../img/Rectangle\ 257.png");
                 display: flex;
                 .imgNav-lady {
                     width: 47.02%;
                     height: 275px;
-                    border: 1px solid blue;
                     background-image: url("../../img/lady2.png");
                     background-size: 100% 100%;
                     margin: 10px 44px 0px 80px;
@@ -380,14 +341,12 @@ main {
                 .imgNav-discount {
                     width: 27%;
                     height: 150px;
-                    border: 1px solid blue;
                     border-radius: 50%;
                     margin: 115px 20px 20px 0px;
                     background-image: url("../../img/Ellipse\ 159.png");
                     .imgNav-textOne {
                         width: 28.3%;
                         height: 24px;
-                        border: 1px solid blue;
                         margin: 15px auto 0px;
                         color: #FFFFFF;
                         font-family: $font-f;
@@ -399,7 +358,6 @@ main {
                     .imgNav-textTwo {
                         width: 52%;
                         height: 57px;
-                        border: 1px solid blue;
                         margin: 10px auto 0px;
                         color: #FFFFFF;
                         font-family: "Spline Sans", sans-serif;
@@ -411,7 +369,6 @@ main {
                     .imgNav-textTree {
                         width: 56.3%;
                         height: 27px;
-                        border: 1px solid blue;
                         margin: 0px auto 0px;
                         color: #FFFFFF;
                         font-family: $font-f;
@@ -425,7 +382,6 @@ main {
             .block-imgMain {
                 width: 100%;
                 height: 285px;
-                border: 1px solid blue;
                 margin-top: 28px;
                 display: flex;
                 .imgMain-imgOne {
@@ -435,7 +391,6 @@ main {
                     .img-women {
                         width: 88.6%;
                         height: 258px;
-                        border: 1px solid blue;
                         margin: 26px auto 0px;
                         background-image: url("../../img/little-woman.png");
                         background-size: 100% 100%;
@@ -449,8 +404,7 @@ main {
                     .img-girl {
                         width: 82.06%;
                         height: 265px;
-                        border: 1px solid blue;
-                        margin: 0px auto 0px;
+                        margin: 20px auto 0px;
                         background-image: url("../../img/interested-woman-posing.png");
                         background-size: 100% 100%;
                     }
