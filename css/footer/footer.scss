@@ -1,0 +1,203 @@
+@mixin footerContact {
+    width: 4.36%;
+    height: 50px;
+    border-radius: 50%;
+}
+
+footer {
+    width: 1146px;
+    height: 308px;
+    margin: 130px auto 0px;
+    .footer-information {
+        width: 100%;
+        height: 233px;
+        border-bottom: 1px solid #6B6867;
+        display: flex;
+        .footer-information-fashion {
+            width: 21.98%;
+            height: 149px;
+            .information-fashion-img {
+                width: 42.85%;
+                height: 42.45px;
+                background-image: url("../../img/logo\ \(1\).png");
+                background-size: 100% 100%;
+            }
+            .information-fashion-text {
+                width: 100%;
+                height: 81px;
+                margin-top: 22.55px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 27px;
+                color: #6B6867;
+            }
+        }
+        .footer-information-menu {
+            width: 5.06%;
+            height: 155px;
+            margin: 8px 0px 0px 199px;
+            .information-menu-nav {
+                width: 79.31%;
+                height: 27px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 27px;
+                color: #0A0603;
+            }
+            .information-menu-main {
+                width: 82.75%;
+                height: 26px;
+                font-family: "Poppins", sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 25.6px;
+                color: #6B6867;
+                margin-top: 20px;
+            }
+            .information-menu-aside {
+                width: 100%;
+                height: 26px;
+                font-family: "Poppins", sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 25.6px;
+                color: #6B6867;
+                margin-top: 15px;
+            }
+            .information-menu-footer {
+                width: 100%;
+                height: 26px;
+                font-family: "Poppins", sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 25.6px;
+                color: #6B6867;
+                margin-top: 9px;
+            }
+        }
+        .footer-information-company {
+            width: 6.72%;
+            height: 155px;
+            margin: 8px 0px 0px 200px;
+            .information-company-nav {
+                width: 100%;
+                height: 27px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 27px;
+                color: #0A0603;
+            }
+            .information-company-main {
+                width: 83.11%;
+                height: 26px;
+                margin-top: 20px;
+                font-family: "Poppins", sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 25.6px;
+                color: #6B6867;
+            }
+            .information-company-aside {
+                width: 71.42%;
+                height: 26px;
+                margin-top: 15px;
+                font-family: "Poppins", sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 25.6px;
+                color: #6B6867;
+            }
+            .information-company-footer {
+                width: 85.17%;
+                height: 26px;
+                margin-top: 9px;
+                font-family: "Poppins", sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 25.6px;
+                color: #6B6867;
+            }
+        }
+        .footer-information-help {
+            width: 13.61%;
+            height: 155px;
+            margin: 8px 0px 0px 198px;
+            .information-help-nav {
+                width: 23.71%;
+                height: 27px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 25.6px;
+                color: #0A0603;
+            }
+            .information-help-main {
+                width: 72.51%;
+                height: 26px;
+                margin-top: 20px;
+                font-family: "Poppins", sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 25.6px;
+                color: #6B6867;
+            }
+            .information-help-aside {
+                width: 80.12%;
+                height: 26px;
+                margin-top: 15px;
+                font-family: "Poppins", sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 25.6px;
+                color: #6B6867;
+            }
+            .information-help-footer {
+                width: 100.5%;
+                height: 26px;
+                margin-top: 9px;
+                font-family: "Poppins", sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 25.6px;
+                color: #6B6867;
+            }
+        }
+    }
+    .footer-contact {
+        height: 75px;
+        display: flex;
+        .footer-contact-copyright {
+            height: 21px;
+            width: 25%;
+            margin: 40px 0px 0px 0px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            color: #6B6867;
+        }
+        .footer-contact-twiter {
+            @include footerContact;
+            background-image: url("../../img/twiter\ \(1\).png");
+            margin: 23px 25px 0px 577px;
+        }
+        .footer-contact-facebook {
+            @include footerContact;
+            background-image: url("../../img/facebook.png");
+            margin: 23px 0px 0px 0px;
+        }
+        .footer-contact-insta {
+            @include footerContact;
+            background-image: url("../../img/instragram.png");
+            margin: 23px 0px 0px 25px;
+        }
+        .footer-contact-linkdin {
+            @include footerContact;
+            background-image: url("../../img/linkdin.png");
+            margin: 23px 0px 0px 25px;
+        }
+    }
+}

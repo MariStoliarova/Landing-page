@@ -3,20 +3,17 @@
     height: 39.3px;
     background-image: url("../../img/coation.png");
     background-position: 100% 100%;
-    border: 1px solid blue;
     margin: 50px 25.5px 192.1px 182px;
 }
 
 @mixin img-main {
     width: 69.46%;
-    border: 1px solid blue;
     background-position: 100% 100%;
 }
 
 @mixin text-nav {
     width: 89.72%;
     height: 72px;
-    border: 1px solid blue;
     margin: 58px 30px 0px 0px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -29,7 +26,6 @@
     margin: 15px 158px 0px 0px;
     width: 47.89%;
     height: 33px;
-    border: 1px solid blue;
     color: #010405;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -41,7 +37,6 @@
     margin: 2px 229px 0px 0px;
     width: 31.57%;
     height: 24px;
-    border: 1px solid blue;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -53,25 +48,23 @@
     margin: 14px 184px 50px 0px;
     width: 36.9%;
     height: 17px;
-    border: 1px solid blue;
     background-image: url("../../img/star.png");
     background-size: 100% 100%;
 }
 
 aside {
     width: 1600px;
-    border: 1px solid black;
     height: 482px;
     margin: 130px auto 0px;
     .annotation-container {
         width: 100%;
         height: 482px;
         background-image: url("../../img/Rectangle\ 260.png");
+        margin: 0px auto;
         display: flex;
         .annotation-designer {
             width: 34.68%;
             height: 282px;
-            border: 1px solid red;
             margin: 100px 30px 100px 230px;
             background-color: #FFFFFF;
             border-radius: 5px;
@@ -79,7 +72,6 @@ aside {
             .designer-img {
                 width: 47.39%;
                 height: 282px;
-                border: 1px solid blueviolet;
                 .designer-img-nav {
                     @include img-nav;
                 }
@@ -93,7 +85,6 @@ aside {
             .designer-text {
                 width: 52.61%;
                 height: 282px;
-                border: 1px solid blueviolet;
                 .designer-text-nav {
                     @include text-nav;
                 }
@@ -111,15 +102,13 @@ aside {
         .annotation-artDirector {
             width: 34.68%;
             height: 282px;
-            border: 1px solid red;
-            margin: 100px 230px 100px 0px;
+            margin: 100px 0px 100px 0px;
             background-color: #FFFFFF;
             border-radius: 5px;
             display: flex;
             .artDirector-img {
                 width: 47.39%;
                 height: 282px;
-                border: 1px solid blueviolet;
                 .artDirector-img-nav {
                     @include img-nav;
                 }
@@ -133,7 +122,6 @@ aside {
             .artDirector-text {
                 width: 52.61%;
                 height: 282px;
-                border: 1px solid blueviolet;
                 .artDirector-text-nav {
                     @include text-nav;
                 }
@@ -147,6 +135,14 @@ aside {
                     @include img-footer;
                 }
             }
+        }
+        .pagination-right {
+            width: 2.875%;
+            height: 46px;
+            border-radius: 50%;
+            margin: 221px 157px 0px 33px;
+            background-image: url("../../img/slide\ key.png");
+            background-size: 100% 100%;
         }
     }
 }

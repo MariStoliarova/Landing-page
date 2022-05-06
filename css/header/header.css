@@ -1,11 +1,9 @@
 body {
   width: 1600px;
-  border: 1px solid green;
 }
 
 nav {
   width: 1480px;
-  border: 1px solid black;
   height: 147px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -17,21 +15,7 @@ nav .nav-logo-container {
   margin-left: 230px;
   width: 7.29%;
   height: 42.45px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-nav .nav-logo-container .nav-logo-img {
-  background-image: url("../../img/Logo.png");
-  width: 28%;
-  height: 42.45px;
-}
-nav .nav-logo-container .nav-logo-text {
-  background-image: url("../../img/FASHION.png");
-  margin-top: 11px;
-  margin-left: 5px;
-  width: 69%;
-  height: 19px;
+  background-image: url("../../img/logo (1).png");
   background-size: 100% 100%;
 }
 nav .nav-bar-container {
